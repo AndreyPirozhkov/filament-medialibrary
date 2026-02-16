@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spot\\FilamentMediaLibrary\\": "src/"
+            "AP\\FilamentMediaLibrary\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spot\\FilamentMediaLibrary\\FilamentMediaLibraryServiceProvider"
+                "AP\\FilamentMediaLibrary\\FilamentMediaLibraryServiceProvider"
             ]
         }
     },
