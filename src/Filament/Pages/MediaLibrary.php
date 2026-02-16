@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrey\FilamentMediaLibrary\Filament\Pages;
+namespace AP\FilamentMediaLibrary\Filament\Pages;
 
-use Andrey\FilamentMediaLibrary\Models\MediaFolder;
-use Andrey\FilamentMediaLibrary\Models\MediaItem;
+use AP\FilamentMediaLibrary\Models\MediaFolder;
+use AP\FilamentMediaLibrary\Models\MediaItem;
 use Filament\Pages\Page;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Attributes\On;

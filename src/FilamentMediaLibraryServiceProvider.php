@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrey\FilamentMediaLibrary;
+namespace AP\FilamentMediaLibrary;
 
-use Andrey\FilamentMediaLibrary\Filament\Pages\MediaLibrary;
+use AP\FilamentMediaLibrary\Filament\Pages\MediaLibrary;
 use Illuminate\Support\ServiceProvider;
 
 class FilamentMediaLibraryServiceProvider extends ServiceProvider

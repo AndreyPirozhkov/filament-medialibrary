@@ -65,7 +65,7 @@ php artisan migrate
 ```php
 ->discoverPages(
     in: base_path('packages/andrey/filament-medialibrary/src/Filament/Pages'), 
-    for: 'Andrey\\FilamentMediaLibrary\\Filament\\Pages'
+    for: 'AP\\FilamentMediaLibrary\\Filament\\Pages'
 )
 ```
 
