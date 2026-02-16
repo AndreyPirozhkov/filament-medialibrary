@@ -16,6 +16,7 @@ class MediaLibrary extends Page
 
     protected static ?string $navigationIcon = 'heroicon-o-photo';
     protected static string $view = 'filament-media-library::filament.pages.media-library';
+    protected static bool $shouldRegisterNavigation = true;
     
     public static function getNavigationLabel(): string
     {
@@ -30,6 +31,11 @@ class MediaLibrary extends Page
     public static function getNavigationSort(): ?int
     {
         return config('filament-medialibrary.navigation_sort', 10);
+    }
+    
+    public static function shouldRegisterNavigation(): bool
+    {
+        return true;
     }
 
     public $files = [];
