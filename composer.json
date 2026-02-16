@@ -1,12 +1,13 @@
 {
-    "name": "andrey/filament-medialibrary",
+    "name": "AndreyPirozhkov/filament-medialibrary",
     "description": "Media library for Filament 5 with visual file manager",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andrey",
-            "email": "andrey@example.com"
+            "name": "Andrey Pirozhkoiv",
+            "email": "anderpirozhkov@gmail.com",
+            "telegram" : "https://t.me/pirozhkov_dev"
         }
     ],
     "require": {
@@ -17,16 +18,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Andrey\\FilamentMediaLibrary\\": "src/"
+            "Spot\\FilamentMediaLibrary\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Andrey\\FilamentMediaLibrary\\FilamentMediaLibraryServiceProvider"
+                "Spot\\FilamentMediaLibrary\\FilamentMediaLibraryServiceProvider"
             ]
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
+
